@@ -1,0 +1,12 @@
+services:
+
+  exercicio2:
+
+    build: .
+
+    container_name: exercicio2-docker-git
+
+    ports:
+      - "8081:80"
+
+    restart: unless-stopped
